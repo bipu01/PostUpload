@@ -1,12 +1,12 @@
 const StudentCard = (prop: studentProp) => {
   return (
     <>
-      <div className="flex flex-col bg-white p-2 rounded-lg w-52">
-        <div className=" h-48 w-48 bg-gray-400 rounded-lg">
+      <div className="flex flex-col bg-white p-4 rounded-lg w-28rem">
+        <div className=" h-30rem w-26rem bg-gray-400 rounded-lg">
           <img
             src={prop.img}
             alt="img"
-            className=" object-cover h-full w-full "
+            className=" object-cover h-full w-full rounded-lg"
           />
         </div>
         <div>
